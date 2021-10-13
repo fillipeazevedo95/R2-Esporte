@@ -1,0 +1,93 @@
+/*
+* 
+* @author Jamilton Damasceno
+* @version 0.1
+*/
+
+/* ========================= layout ======================== */
+html, body, .capa {
+	height: 100%;
+}
+
+body {
+	background: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+/* -- Barra de navegação -- */
+.img-logo {
+	height: 55px;
+	width: 100px;
+	display: block;
+	background: url('img/logo\ r2\ amarelo.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 0px 0px;	
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #e9e443;
+}
+
+/* -- Imagem de capa -- */
+.capa {
+	display: table;
+	width: 100%;
+}
+
+.texto-capa {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* -- Botoes -- */
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo {
+	background: #7c25f8;
+}
+.btn-roxo:hover {
+	background-color: #6207e3;
+	color: white;
+}
+
+.btn-branco {
+	border: 2px solid white;
+}
+.btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+/* ========================= Tipografia ======================== */
+h1 {
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+
