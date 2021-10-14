@@ -63,7 +63,15 @@ nav.navbar-transparente {
 	color: #fff700;
 }
 
-.container h2, .container h3, .container h4 {
+.container h2 {
+	color: #fff700;
+}
+
+.container h3 {
+	color: #fff700;
+}
+
+.container h4 {
 	color: #fff700;
 }
 
