@@ -160,3 +160,7 @@ footer {
 	position: relative;
 	color: rgb(255, 255, 255);
 }
+
+.img-logo {
+	height: 100%;
+}
