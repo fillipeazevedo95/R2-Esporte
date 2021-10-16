@@ -89,6 +89,14 @@ ul {
 	margin-bottom: 50px;
 }
 
+.div3 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 100px;
+
+}
+
 
 .divisor {
 	background: rgba(255, 255, 255, 0.6);
