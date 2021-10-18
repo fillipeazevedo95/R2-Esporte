@@ -78,7 +78,8 @@ header {
 }
 
 .container2 {
-	max-width: 500px;
+	max-width: 1200px;
+	max-height: 500px;
 	margin: 0 auto;
 	margin-top: 20px;
 	display: flex;
@@ -110,7 +111,11 @@ header {
 
 .space {
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
+}
+
+.space2 {
+	margin-bottom: 10px;
 }
 
 
