@@ -10,9 +10,7 @@ html {
   }
 
 .fonte {
-	font-family: 'Roboto';
-	src: url('../fonts/Roboto-Italic.ttf');
-
+	font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 200;
     font-style: italic;
 }
