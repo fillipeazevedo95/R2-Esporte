@@ -15,7 +15,7 @@ html {
 }
 
 body {
-	background-color: #22252c;
+	background-color: #0a1612;
 	background-attachment: fixed;
 	background-size: cover;
 	font-family: Helvetica,Arial,sans-serif;
@@ -24,8 +24,8 @@ body {
 header {
 	width: 100%;
 	height: 80px;
-	background-color: #373737;
-	box-shadow: 0px 3px 10px #c0b283;
+	background-color: #1a2930;
+	box-shadow: 0px 3px 10px #f7ce3e;
 	padding: 10px;
 	display: flex;
 	align-items: center;
@@ -40,7 +40,7 @@ header {
 }
 
 .menu li a {
-	color: white;
+	color: #c5c1c0;
 	display: block;
 	text-decoration: none;
 	margin-left: 10px;
@@ -88,14 +88,14 @@ ul {
 .div3 {
 	margin-top: 50px;
 	margin-bottom: 50px;
-	background-color: #c0b283;
+	background-color: #f7ce3e;
 	border-radius: 100px;
 
 }
 
 
 .divisor {
-	background: #c0b283;
+	background: #f7ce3e;
 	padding: 40px 10px 50px 10px;
 }
 
@@ -111,7 +111,7 @@ ul {
 
 .texto-capa {
 	text-align: center;
-	color: white;
+	color: #c5c1c0;
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -128,7 +128,7 @@ h1 {
 	letter-spacing: -0.05em;
 	margin-bottom: 50px;
 	text-align: center;
-	color: #f4f4f4;
+	color: #c5c1c0;
 }
 
 span h1 {
@@ -137,7 +137,7 @@ span h1 {
 	letter-spacing: -0.05em;
 	margin-bottom: 50px;
 	text-align: center;
-	color: #373737;
+	color: #1a2930;
 }
 
 h2 {
@@ -145,7 +145,7 @@ h2 {
 	font-weight: 700;
 	letter-spacing: -0.04em;
 	text-align: center;
-	color: #f4f4f4;
+	color: #c5c1c0;
 	
 }
 
@@ -154,7 +154,7 @@ span h2 {
 	font-weight: 700;
 	letter-spacing: -0.04em;
 	text-align: center;
-	color: #373737;
+	color: #1a2930;
 	
 }
 
@@ -163,7 +163,7 @@ h3 {
 	font-weight: 700;
 	letter-spacing: -0.04em;
 	text-align: center;
-	color: #f4f4f4;
+	color: #c5c1c0;
 }
 
 span h3 {
@@ -171,12 +171,12 @@ span h3 {
 	font-weight: 700;
 	letter-spacing: -0.04em;
 	text-align: center;
-	color: #f4f4f4;
+	color: #c5c1c0;
 }
 
 h4 {
 	text-align: center;
-	color: #373737;
+	color: #1a2930;
 }
 
 ul {
@@ -189,15 +189,15 @@ a {
 }
 
 footer {
-	background: #373737;
+	background: #1a2930;
 	padding: 30px 0px 20px 50px;
 	position: relative;
-	color: rgb(255, 255, 255);
+	color: #c5c1c0;
 }
 
 p {
 	font-size: 19px;
-	color: #f4f4f4;
+	color: #c5c1c0;
 }
 
 span p {
@@ -207,7 +207,7 @@ span p {
 
 li {
 	font-size: 15px;
-	color: #f4f4f4;
+	color: #c5c1c0;
 }
 
 span li {
@@ -229,11 +229,11 @@ span li {
 }
 
 .btn-roxo {
-	background: #f4f4f4;
+	background: #f7ce3e;
 }
 .btn-roxo:hover {
-	background-color: #838383;
-	color: #f4f4f4;
+	background-color: #bd9f33;
+	color: #0a1612;
 }
 
 
