@@ -68,6 +68,16 @@ header {
 	
 }
 
+.imgr2 {
+	height: 200px;
+	width: 200px;
+	margin-bottom: 20px;
+	display: block;
+	background-size: contain;
+	color: transparent;
+	justify-content: center;
+}
+
 
 .container {
 	max-width: 1200px;
@@ -102,7 +112,7 @@ header {
 
 .divisor {
 	background: #000000;
-	padding-bottom: 20px;
+	padding-bottom: 0px;
 
 }
 
@@ -182,10 +192,10 @@ a {
 }
 
 footer {
-	background-color: black;
 	padding: 20px 0px 20px 50px;
 	position: relative;
-	color: #f4f4f4;
+	background-color: #F4DD42;
+	color: #2a2a2a;
 }
 
 li {
