@@ -130,6 +130,13 @@ header {
 	margin-bottom: 10px;
 }
 
+.img-rapha {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	align-items: center;
+}
+
 
 h1 {
 	font-size: 80px;
@@ -146,7 +153,8 @@ h2 {
 	letter-spacing: -0.04em;
 	text-align: center;
 	color: #ffffff;
-	
+	align-items: center;
+	justify-content: center;
 }
 
 h3 {
@@ -195,6 +203,10 @@ li {
 
 img {
 	width: 100%;
+}
+
+p {
+	color: #ffffff;
 }
 
 .img {
