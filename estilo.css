@@ -16,7 +16,7 @@ html {
 }
 
 body {
-	background-color: #F4DD42;
+	background-color: #F4F4F4;
 	background-attachment: fixed;
 	background-size: cover;
 	font-family: Helvetica,Arial,sans-serif;
@@ -45,16 +45,27 @@ header {
 }
 
 .menu li a {
-	color: white;
+	color: #F4F4F4;
 	justify-content: center;
 	text-decoration: none;
-	margin-left: 25px;
-	padding: 10px 10px 10px 10px;
+	padding: 10px 20px 10px 20px;
 	border-radius: 3px;
 }
 
+
 .menu li a:hover {
-	color: #F4DD42;
+	color: #000000;
+	background-color: #F4F4F4;
+}
+
+
+.menu nav li ul li a:hover {
+	background-color: #2a2a2a;
+	color: #F4F4F4;
+}
+
+.menu nav li ul li a {
+	color: rgb(0, 0, 0);
 }
 
 /* -- Barra de navegação -- */
@@ -116,8 +127,9 @@ header {
 
 }
 
+
 .separador {
-	background-color: #F4DD42;
+	background-color: #F4F4F4;
 	max-width: 1200px;
 	width: 100%;
 	padding: 2px;
@@ -138,6 +150,10 @@ header {
 
 .space2 {
 	margin-bottom: 10px;
+}
+
+.space3 {
+	margin-top: 21px;
 }
 
 .img-rapha {
@@ -162,7 +178,7 @@ h2 {
 	font-weight: 700;
 	letter-spacing: -0.04em;
 	text-align: center;
-	color: #ffffff;
+	color: #F4F4F4;
 	align-items: center;
 	justify-content: center;
 }
@@ -172,13 +188,13 @@ h3 {
 	font-weight: 700;
 	letter-spacing: -0.04em;
 	text-align: left;
-	color: #ffffff;
+	color: #F4F4F4;
 }
 
 h4 {
-	font-size: 20px;
+	font-size: 18px;
 	text-align: center;
-	color: #ffffff;
+	color: #F4F4F4;
 	text-align: left;
 }
 
@@ -188,21 +204,24 @@ ul {
 }
 
 a {
-	color: #ffffff;
+	color: #F4F4F4;
 }
 
 footer {
 	padding: 20px 0px 20px 50px;
 	position: relative;
-	background-color: #F4DD42;
+	background-color: #F4F4F4;
 	color: #2a2a2a;
 }
 
 li {
 	font-size: 20px;
-	color: rgb(255, 255, 255);
+	color: #F4F4F4;
 }
 
+li ul li a {
+	font-size: 15px;
+}
 
 /* css do slide de imagens */
 
@@ -216,7 +235,7 @@ img {
 }
 
 p {
-	color: #ffffff;
+	color: #F4F4F4;
 }
 
 .img {
