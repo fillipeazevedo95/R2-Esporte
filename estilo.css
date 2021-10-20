@@ -89,6 +89,16 @@ header {
 	justify-content: center;
 }
 
+.imgr3 {
+	height: 150px;
+	width: 300px;
+	margin-bottom: 20px;
+	display: block;
+	background-size: contain;
+	color: transparent;
+	justify-content: center;
+}
+
 
 .container {
 	max-width: 1200px;
@@ -160,6 +170,12 @@ header {
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
+	align-items: center;
+}
+
+.teste {
+	display: block;
+	justify-content: center;
 	align-items: center;
 }
 
